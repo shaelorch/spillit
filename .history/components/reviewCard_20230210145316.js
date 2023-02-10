@@ -11,7 +11,7 @@ export default function RevCard({
         
         <div style={{display:'flex', flexDirection:'row'}}>
             <img  style={{display:'flex', width:'45%', height:"30%", marginTop:"20%", marginLeft:10}} src="place.png"/> 
-            <div style={{lineHeight:1.5,paddingLeft:15, color:'#184B4B'}}>
+            <div style={{lineHeight:1,paddingLeft:15, color:'#184B4B'}}>
                 <h3>{name}</h3>
                 <p>{rating}</p>
                 <p>{review}</p>

@@ -7,12 +7,10 @@ import SubButton from '../components/SubButton'
 import RevCard from '../components/reviewCard'
 import Header from '../components/Header'
 import TopBar from '../components/topBAr'
-import reviews from '../data/reviews.json'
+import Reviews from '../data/reviews.json'
 
 
 export default function Home() {
-
-  
   return (
     <div className={styles.container}>
       <Head>
@@ -25,26 +23,13 @@ export default function Home() {
      <TopBar/>
 
       <main className={styles.main}>
-       <div >
-        {
-          reviews.map( (rev, index) => {
-            return (
-              <RevCard 
-              key={index}
-              name={rev.name}
-              rating={`${rev.rating} stars`}
-              review={`"${rev.review}"`}></RevCard>
-            )
-          })
-          
-        }
-       </div>
        
-        
-       
+       <RevCard/>
       </main>
 
+      <footer className={styles.footer}>
       
+      </footer>
     </div>
   )
 }

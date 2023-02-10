@@ -12,7 +12,7 @@ import reviews from '../data/reviews.json'
 
 export default function Home() {
 
-  
+  console.log(reviews);
   return (
     <div className={styles.container}>
       <Head>

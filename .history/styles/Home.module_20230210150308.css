@@ -6,7 +6,7 @@
 
 .rotate {
  
-  width:358;
+  width:414px;
   height:195;
   margin-top:-160;
   margin-Left:-40;
@@ -18,7 +18,7 @@
   padding: 4rem 0;
   flex: 1;
   width:414px;
-  background-color: #779680;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;

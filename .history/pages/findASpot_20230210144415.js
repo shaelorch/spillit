@@ -12,7 +12,7 @@ import reviews from '../data/reviews.json'
 
 export default function Home() {
 
-  
+  console.log(reviews);
   return (
     <div className={styles.container}>
       <Head>
@@ -32,8 +32,8 @@ export default function Home() {
               <RevCard 
               key={index}
               name={rev.name}
-              rating={`${rev.rating} stars`}
-              review={`"${rev.review}"`}></RevCard>
+              rating={rev.rating}
+              review={rev.review}></RevCard>
             )
           })
           
@@ -44,7 +44,9 @@ export default function Home() {
        
       </main>
 
+      <footer className={styles.footer}>
       
+      </footer>
     </div>
   )
 }
