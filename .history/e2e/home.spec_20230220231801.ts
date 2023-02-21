@@ -54,7 +54,7 @@ test.describe('testing for home iPhone', () => {
     test("Testing for margins on page", async ({ page }) => {
         await page.goto('http://localhost:3000')
 
-        const mainContainer = page.locator('#flex');
+        const mainContainer = page.locator('#margins');
 
         const checkingMargins = await mainContainer.evaluate((ele) => {
             return window.getComputedStyle(ele).getPropertyValue('margin')
@@ -70,7 +70,7 @@ test.describe('testing for home iPhone', () => {
     test("Testing for text alignment", async ({ page }) => {
         await page.goto('http://localhost:3000')
 
-        const mainContainer = page.locator('#flex');
+        const mainContainer = page.locator('#margins');
 
         const checkingAlign = await mainContainer.evaluate((ele) => {
             return window.getComputedStyle(ele).getPropertyValue('text-align')

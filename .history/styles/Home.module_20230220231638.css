@@ -153,10 +153,6 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
-
-  .main {
-    flex-direction: column;
-  }
 }
 
 /* Ipad */
@@ -164,20 +160,16 @@
   .container {
     width: 100%;
     flex-direction: column;
-    
-  }
-  .main {
     padding:20px;
   }
 }
 
 /* Iphone XR */
 @media (max-width: 414px) {
-  #flex {
+  .main {
     width:100%;
     margin:-10px;
     text-align: left;
-
   }
 }
 

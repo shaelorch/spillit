@@ -173,11 +173,10 @@
 
 /* Iphone XR */
 @media (max-width: 414px) {
-  #flex {
+  .main {
     width:100%;
     margin:-10px;
     text-align: left;
-
   }
 }
 
