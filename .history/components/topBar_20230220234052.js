@@ -2,7 +2,6 @@ import Link from "next/link"
 import { useEffect, useState } from "react"
 import { GrClose } from 'react-icons/gr'
 import PopMenu from "./popMenu";
-import Image from "next/image";
 
 export default function TopBar() {
 
